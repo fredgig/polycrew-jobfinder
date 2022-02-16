@@ -1,0 +1,28 @@
+{
+  "name": "my-app",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "svelte-kit dev",
+    "build": "svelte-kit build",
+    "package": "svelte-kit package",
+    "preview": "svelte-kit preview"
+  },
+  "devDependencies": {
+    "@sveltejs/adapter-auto": "next",
+    "@sveltejs/kit": "next",
+    "autoprefixer": "^10.4.2",
+    "postcss": "^8.4.6",
+    "svelte": "^3.44.0",
+    "tailwindcss": "^3.0.22"
+  },
+  "type": "module",
+  "dependencies": {
+    "csv-parser": "^3.0.0",
+    "csvtojson": "^2.0.10",
+    "dayjs": "^1.10.7",
+    "fs": "0.0.1-security",
+    "leaflet": "^1.7.1",
+    "svelte-csv": "^1.2.8",
+    "svelte-leafletjs": "^0.8.2"
+  }
+}
